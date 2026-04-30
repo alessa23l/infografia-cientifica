@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Prompt - Z.ai</title>
+    <style>
+        :root {
+            --primary: #1A4A5E;
+            --secondary: #2A9D8F;
+            --accent: #D35400;
+            --bg: #f4f7f8;
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333; 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px;
+            background-color: var(--bg);
+        }
+        .prompt-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-top: 8px solid var(--primary);
+        }
+        h1 { color: var(--primary); text-align: center; font-size: 1.8rem; margin-bottom: 30px; }
+        .section { margin-bottom: 25px; }
+        .label { 
+            font-weight: bold; 
+            color: var(--secondary); 
+            text-transform: uppercase; 
+            display: block;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 8px;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 5px; }
+        .footer { 
+            margin-top: 40px; 
+            font-size: 0.8rem; 
+            text-align: center; 
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="prompt-container">
+        <h1>SUPER PROMPT UTILIZADO EN Z.AI (MODELO RISEN)</h1>
+
+        <div class="section">
+            <span class="label">[Rol]</span>
+            <p>Actúa como un desarrollador front-end experto y diseñador de interfaces interactivas especializado en visualización de datos académicos y educativos.</p>
+        </div>
+
+        <div class="section">
+            <span class="label">[Instrucción]</span>
+            <p>Crea la estructura completa (HTML con CSS embebido en el mismo archivo) para una infografía interactiva web de tipo "Estadística / datos". El objetivo es mantener un diseño visualmente muy limpio, minimalista y de aspecto premium (estética Glassmorphism) en su estado inicial, mostrando los íconos SVG y los títulos. Oculta las cifras y los gráficos estadísticos, y revélalos únicamente cuando el usuario interactúa con cada tarjeta (hover).</p>
+        </div>
+
+        <div class="section">
+            <span class="label">[Contenido y Personalización]</span>
+            <ul>
+                <li><strong>Diseño Visual:</strong> Paleta HEX Principal #1A4A5E, Secundario #2A9D8F, Acento #D35400.</li>
+                <li><strong>Datos Estadísticos:</strong> 5 Tarjetas (Dona para dieta, Barras para eficiencia, Boxplot para cortisol, Línea para crecimiento y Dispersión para nitrógeno).</li>
+                <li><strong>Pie de Página:</strong> Fuente bibliográfica de Silva-Villaizan, A. (2026) y firma "Diseñado por: Alexandra Yanira Silva Villaizan".</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <span class="label">[Pasos]</span>
+            <ol>
+                <li>Estructura Base (HTML): Contenedor Grid de 3 columnas.</li>
+                <li>Activos: Integración de íconos SVG personalizados (Peces, alimentación, red, etc.).</li>
+                <li>Efectos: Implementación de hover con desenfoque y transiciones suaves.</li>
+                <li>Gestión: Todo el código CSS dentro de etiquetas de estilo.</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <span class="label">[Fin]</span>
+            <p>Devuelve ÚNICAMENTE el código fuente. El resultado final debe ser un solo bloque de código en un documento index.html funcional.</p>
+        </div>
+
+        <div class="section">
+            <span class="label">[Restricciones]</span>
+            <ul>
+                <li>Utilizar únicamente CSS puro (Vanilla CSS).</li>
+                <li>Sin imágenes externas; todo mediante código SVG nativo.</li>
+                <li>Diseño estrictamente responsivo (Mobile First).</li>
+                <li>Idioma: Español técnico.</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            Documento preparado para Tarea Académica 2 - UTP 2026
+        </div>
+    </div>
+
+</body>
+</html>
